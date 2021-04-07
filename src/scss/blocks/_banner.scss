@@ -1,0 +1,33 @@
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 90px 120px;
+    background: $grad;
+    border-radius: 20px;
+}
+
+.banner__text {
+    width: 40%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: $white;
+}
+
+.banner__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.banner__angle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
+}

@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+}
+
+.social__item {
+    margin-left: 11px;
+    list-style-type: none;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.social__item svg {
+    width: 24px;
+    height: 24px;
+}

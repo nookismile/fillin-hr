@@ -1,0 +1,16 @@
+.main-title,
+h1 {
+    color: $dark;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.main-title--center {
+    text-align: center;
+}
+
+.main-title span,
+h1 span {
+    color: $blue;
+}

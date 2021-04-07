@@ -1,0 +1,20 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__item {
+    flex-basis: 60%;
+
+    &:nth-child(2) {
+        flex-basis: 40%;
+    }
+}
+
+.app__item .text {
+    margin-bottom: 24px;
+}
+
+.app__item a {
+    margin-bottom: 40px;
+}

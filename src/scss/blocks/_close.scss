@@ -1,0 +1,19 @@
+.close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: url(../img/close.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

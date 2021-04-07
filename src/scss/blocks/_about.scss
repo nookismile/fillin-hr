@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.about__item {
+    flex-basis: 50%;
+
+    &:nth-child(2) {
+        text-align: center;
+    }
+}

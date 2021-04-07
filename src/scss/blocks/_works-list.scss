@@ -1,0 +1,11 @@
+.works-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.works-list__item {
+    width: 25%;
+    margin-bottom: 48px;
+    list-style-type: none;
+}

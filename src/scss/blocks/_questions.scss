@@ -1,0 +1,23 @@
+.questions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 90px 120px;
+    background: $grad;
+    border-radius: 20px;
+}
+
+.questions__text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: $white;
+}
+
+.questions__angle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
+}

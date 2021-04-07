@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-weight: 600;
+    color: $white;
+    background: $grad;
+    border-radius: 40px;
+
+    &:hover {
+        background: $hoverGrad;
+    }
+}
+
+.btn--light {
+    color: $blue;
+    background: $lightGrad;
+}
+
+.btn svg {
+    width: 24px;
+    height: 24px;
+}

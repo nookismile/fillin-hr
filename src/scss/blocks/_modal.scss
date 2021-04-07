@@ -1,0 +1,15 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3000;
+    display: none;
+    width: 100%;
+    max-width: 660px;
+    height: 440px;
+    margin: auto;
+    background-color: $white;
+    border-radius: 10px;
+}

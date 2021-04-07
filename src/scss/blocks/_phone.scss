@@ -1,0 +1,10 @@
+.phone {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+
+    &:hover {
+        color: $blue;
+    }
+}

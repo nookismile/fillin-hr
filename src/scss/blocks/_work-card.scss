@@ -1,0 +1,52 @@
+.work-card {
+    position: relative;
+    max-width: 332px;
+    margin: 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.work-card:hover {
+    box-shadow: 0px 40px 70px rgba(0, 51, 160, 0.15);
+}
+
+.work-card__info {
+    position: relative;
+    margin-top: -50px;
+    padding: 24px 15px;
+    background-color: $white;
+    border: 1px solid $grey;
+    border-radius: 20px;
+}
+
+.work-card__title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: $dark;
+    text-align: center;
+}
+
+.work-card__sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 25px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: $white; 
+    text-align: center;
+    background-color: $green;
+    border-radius: 20px 0 20px 0;
+}
+
+.work-card__btns {
+    display: flex;
+    justify-content: center;
+}
+
+.work-card__btns a + a {
+    margin-left: 8px;
+}

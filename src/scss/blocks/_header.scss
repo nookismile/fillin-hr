@@ -1,0 +1,45 @@
+.header__top {
+    padding: 20px 0;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__top-item>div {
+    margin-left: 35px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.header__bottom {
+    padding: 10px 0;
+    background-color: $lightGrey;
+}
+
+.header__bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bottom-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom-item>div {
+    margin-left: 35px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}

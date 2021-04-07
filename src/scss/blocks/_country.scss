@@ -1,0 +1,11 @@
+.country {
+    position: relative;
+}
+
+.country__window {
+    position: absolute;
+    top: 188%;
+    right: -70px;
+    z-index: 4;
+    display: none;
+}

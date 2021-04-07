@@ -1,0 +1,7 @@
+.link-wrapper a {
+    display: inline-block;
+}
+
+.link-wrapper a + a {
+    margin-left: 20px;
+}

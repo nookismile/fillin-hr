@@ -1,0 +1,65 @@
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location__item {
+    flex-basis: 50%;
+
+    &:nth-child(2) {
+        flex-basis: 30%;
+    }
+
+}
+
+.location__title {
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 200px;
+    color: $blue;
+    text-transform: uppercase;
+}
+
+.location__item .phone {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 28px;
+}
+
+
+.location__tagline {
+    position: relative;
+    margin-right: -80px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    color: $dark;
+    text-align: right;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: -115px;
+        width: 280px;
+        height: 80px;
+        background-image: url("../../img/arrow-decor.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.location__info {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.location__text {
+    font-size: 18px;
+    line-height: 28px;
+}

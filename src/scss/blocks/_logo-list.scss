@@ -1,0 +1,29 @@
+.logo-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo-list__item {
+    max-width: 190px;
+    margin: 0 20px;
+    margin-bottom: 40px;
+    padding: 18px 20px;
+    background-color: $white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    list-style-type: none;
+    transition: all 0.3s ease;
+}
+
+.logo-list__item:hover {
+    box-shadow: 0px 40px 70px rgba(0, 51, 160, 0.15);
+}
+
+.logo-list__item img {
+    opacity: 0.7;
+
+    .logo-list__item &:hover {
+        opacity: 1;
+    }
+}

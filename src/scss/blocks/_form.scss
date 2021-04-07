@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__item {
+    flex-basis: 50%;
+
+    &:nth-child(1) {
+        background-image: url("../../img/logo-decor.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

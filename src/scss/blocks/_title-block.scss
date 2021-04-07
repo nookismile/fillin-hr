@@ -1,0 +1,20 @@
+.title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-block__link a {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 17px;
+    line-height: 28px;
+    color: $blue;
+    background-color: $lightBlue;
+    border: 1px solid $greyBlue;
+    border-radius: 4px;
+}
+
+.title-block__link a + a {
+    margin-left: 16px;
+}

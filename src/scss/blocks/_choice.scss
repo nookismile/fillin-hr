@@ -1,0 +1,36 @@
+.choice {
+    display: flex;
+    align-items: center;
+    color: $dark;
+}
+
+.choice svg {
+    width: 16px;
+    height: 21px;
+    margin-right: 12px;
+    fill: $grad;
+}
+
+.choice__link {
+    position: relative;
+    margin-left: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.choice__link::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    right: auto;
+    left: 0;
+    height: 1px;
+    background-color: #161616;
+    transition: width 0.3s ease;
+}
+
+.choice__link:hover::before {
+    right: 0;
+    width: 0;
+}
