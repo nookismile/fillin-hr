@@ -1,6 +1,12 @@
 .footer {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
     padding: 60px 0;
-
 }
 
 .footer__inner {

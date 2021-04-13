@@ -10,7 +10,24 @@ h1 {
     text-align: center;
 }
 
+.main-title--margin {
+    margin-bottom: 40px;
+}
+
 .main-title span,
 h1 span {
     color: $blue;
+}
+
+@media(max-width: 1000px) {
+    .main-title,
+    h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.main-title--margin {
+   text-align: center;
+}
 }

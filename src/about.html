@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    @include("templates/head.html")
+
+    <title>О компании - Fillin</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+ <div class="full">
+  @include("templates/sidebar-menu.html")
+  @include("templates/header.html")
+  <main class="page-main">
+    <div class="wrapper">
+        <div class="breadcrumbs">
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-list__item">
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="breadcrumbs-list__item">
+                    <span>О компании</span>
+                </li>
+            </ul>
+            <div class="main-title main-title--center main-title--margin">
+                О компании
+            </div>
+            <div class="column-text">
+               <strong>«Fillin» — компания-лидер на рынке аутсорсинга и подбора персонала</strong>
+               <p>Мы решаем проблемы логистики, ритейла, строительства, агросектора и других направлений бизнеса в странах СНГ. 
+               Наши клиенты — это гиганты рынка: Nestle, Ашан, Hennesy, Intel, British American Tabaco и другие. </p>
+               <p>Мы помогаем бизнесу подобрать персонал, обеспечить полный контроль за выполнение работ, берем ответственность за отчетность и документооборот.</p>
+               <p>Fillin — компания, в которой работа есть всегда. В нашем штате более 45 000 сотрудников, которые сами выбирают место, график, уровень за
+                    Ежедневно мы предоставляем работу грузчикам, кассирам, администраторам торговых залов, фасовщикам, уборщикам, промоутерам и многим другим.</p>
+            </div>
+            <section class="section">
+                <div class="benefit wrapper">
+                    <div class="title-h2 title-h2--center">
+                        Почему компании выбирают Fillin
+                    </div>
+                    <ul class="benefit-list">
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                       <img src="../img/globe.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Международная компания
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Вы полностью управляете своим временем. Нет привязки к офису и ко времени 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/card.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Менеджмент
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Вы самостоятельно выбираете, в каком месте, а также кем работать. К тому же в любой момент вы можете изменить свой выбор. 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/target.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Каналы трафика
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Это временная работа — удобно подрабатывать в свободное время.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/investment.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Координация персонала
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Вы точно знаете размер своей зарплаты, потому что устанавливаете ее сами. 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/shield.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Финансовая надежность
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        У нас нет ограничений по опыту — перед каждым новым объектом вы проходите аттестацию.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text text--center text--bold">
+                        Если вам нужен персонал на склад, производство, в ритейл, рекламу, 
+                        строительство — оформляйте заявку и получите сотрудников Fillin на следующий день.
+                    </div>
+                    <div class="btn-wrapper">
+                        <a class="btn js-modal" href="#connect">Связаться с нами
+                            <svg>
+                                <use xlink:href="img/sprite.svg#icon-arrow-light"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            
+
+
+
+        </div>
+
+
+
+    </div>
+
+    @include("templates/main-screen.html")
+    @include("templates/about.html")
+    @include("templates/banner.html")
+    @include("templates/service.html")
+    @include("templates/benefit.html")
+    @include("templates/app.html")
+    @include("templates/location.html")
+    @include("templates/form.html")
+    @include("templates/works.html")
+    @include("templates/questions.html")
+    @include("templates/logo-section.html")
+    @include("templates/blog.html")
+    @include("templates/invitation.html")
+  </main>
+
+  @include("templates/footer.html") 
+  @include("templates/modal.html")
+
+  </div>
+  @include("templates/overlay.html")
+  @include("templates/scripts.html")
+  </body>
+</html>
+
+

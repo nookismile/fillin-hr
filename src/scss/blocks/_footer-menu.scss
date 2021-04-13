@@ -12,5 +12,7 @@
 }
 
 .footer-menu__item a {
-
+        &:hover {
+            color: $blue;
+        }
 }

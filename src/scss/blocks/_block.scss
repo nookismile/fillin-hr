@@ -1,0 +1,42 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.block__item {
+    flex-basis: 48%;
+}
+
+@media(max-width: 1000px) {
+    .block--mobile {
+        flex-wrap: wrap;
+    }
+
+    .block--mobile .block__item {
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .block {
+        flex-wrap: wrap;
+    }
+
+    .block__item {
+        flex-basis: 100%;
+    }
+
+    .block__item .title-h4--form {
+        text-align: center;
+    }
+
+    .block--mobile {
+        flex-wrap: wrap;
+    }
+
+    .block--mobile .block__item {
+        flex-basis: 100%;
+    }
+}

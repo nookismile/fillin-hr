@@ -1,0 +1,11 @@
+.btn-wrapper-mobile {
+    display: none;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1000px) {
+    .btn-wrapper-mobile {
+        display: block;
+        text-align: center;
+    }
+}

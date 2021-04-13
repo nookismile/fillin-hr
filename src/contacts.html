@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @include("templates/head.html")
+
+    <title>Контакты - Fillin</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="full">
+        @include("templates/sidebar-menu.html")
+        @include("templates/header.html")
+        <main class="page-main">
+            <div class="wrapper">
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs-list">
+                        <li class="breadcrumbs-list__item">
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li class="breadcrumbs-list__item">
+                            <span>Контакты</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block block--mobile">
+                    <div class="block__item">
+                        <div class="main-title main-title--margin">
+                            Контакты
+                        </div>
+                        <div class="btn-wrapper-mobile">
+                            <a class="btn js-modal" href="#connect">
+                                <span>
+                                    Связаться с нами
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="block">
+                            <div class="block__item">
+                                <div class="title-h4">
+                                    Наши контакты:
+                                </div>
+                                <div class="address address--dark">
+                                    Киев, ул. Верхний Вал, 4В, офис 414
+                                </div>
+                                @include("templates/phone.html")
+                                <div class="hours">
+                                    с 9:00 до 18:00
+                                </div>
+                                <a href="mailto:order@fillin.com.ua" class="email">
+                                    order@fillin.com.ua
+                                </a>
+                                <ul class="social-icons">
+                                    <li class="social-icons__item">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons__item">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-inst"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-icons__item">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="block__item">
+                                <div class="title-h4">
+                                    Поддержка сотрудников:
+                                </div>
+                                @include("templates/phone.html")
+                                <div class="hours">
+                                    с 8:00 до 20:00
+                                </div>
+                                <a href="mailto:dovira@fillin.ua" class="email">
+                                    dovira@fillin.ua
+                                </a>
+                                @include("templates/social.html")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__item">
+                        <div class="title-h4 title-h4--form">
+                            Связаться с нами
+                        </div>
+                        <form class="main-form">
+                            <fieldset>
+                                <ul class="form-list">
+                                    <li class="form-list__50">
+                                        <div class="group">
+                                            <input class="input" type="text" id="name" required="">
+                                            <label class="label" for="name">Ваше имя</label>
+                                        </div>
+                                    </li>
+                                    <li class="form-list__50">
+                                        <div class="group">
+                                            <input class="input" type="email" id="email" required="">
+                                            <label class="label" for="email">Ваш email</label>
+                                        </div>
+                                    </li>
+                                    <li class="form-list__100">
+                                        <div class="group">
+                                            <textarea class="textarea" id="textarea"></textarea>
+                                            <label class="label" for="textarea">Ваше сообщение</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="main-form__final">
+                                    <button class="btn">
+                                        Отправить
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow-light"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="private">
+                                        Отправляя данные, вы соглашаетесь
+                                        с <a class="link" href="#">политикой конфиденциальности</a>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.8280065229173!2d30.50637731589653!3d50.46292739434661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce697bd1a01f%3A0x87335ba84749a682!2sVerkhnii%20Val%20St%2C%204%D0%92%2C%20414%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sru!4v1618311383663!5m2!1sen!2sru"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </main>
+        @include("templates/footer.html")
+        @include("templates/modal.html")
+    </div>
+    @include("templates/overlay.html")
+    @include("templates/scripts.html")
+</body>
+
+</html>
