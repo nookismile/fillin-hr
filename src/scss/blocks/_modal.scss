@@ -7,9 +7,22 @@
     z-index: 3000;
     display: none;
     width: 100%;
-    max-width: 660px;
-    height: 440px;
+    max-width: 952px;
+    height: 556px;
     margin: auto;
+    padding: 40px 30px;
     background-color: $white;
     border-radius: 10px;
+    overflow: auto;
 }
+
+.modal__container {
+    position: relative;
+}
+
+.modal__wrapper {
+    width: 100%;
+    max-width: 704px;
+    margin: 0 auto;
+}
+

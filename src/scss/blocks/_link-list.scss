@@ -1,0 +1,12 @@
+.link-list__item {
+    margin-bottom: 16px;
+    list-style-type: none;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.link-list__item a:hover {
+    opacity: 0.7;
+}

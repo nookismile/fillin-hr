@@ -5,7 +5,20 @@
 }
 
 .works-list__item {
-    width: 25%;
+    width: 23%;
+    margin: 0 10px;
     margin-bottom: 48px;
     list-style-type: none;
+}
+
+@media(max-width: 1200px) {
+    .works-list__item {
+        width: 45%;
+    }
+}
+
+@media(max-width: 600px) {
+    .works-list__item {
+        width: 100%;
+    }
 }

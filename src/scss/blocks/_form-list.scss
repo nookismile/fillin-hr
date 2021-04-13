@@ -1,0 +1,27 @@
+
+.form-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-list li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+.form-list__50 {
+    width: 47%;
+}
+
+.form-list__100 {
+    width: 100%;
+}
+
+
+@media(max-width: 1000px) {
+    .form-list__50 {
+        width: 100%;
+    }
+}
+

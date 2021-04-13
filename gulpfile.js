@@ -64,13 +64,6 @@ const fontsStyle = (done) => {
 const svgSprites = () => {
     return src('./src/img/icon-*.svg')
         .pipe(svgSprite())
-        .pipe(cheerio({
-                  run: function ($) {
-                      $('[fill]').removeAttr('fill'),
-                      $('[stroke]').removeAttr('stroke');
-            },
-            parserOptions: { xmlMode: true }
-          }))
         .pipe(rename('sprite.svg'))
         .pipe(dest('./app/img'))
 }

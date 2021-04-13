@@ -4,12 +4,67 @@
 }
 
 .form__item {
-    flex-basis: 50%;
+    position: relative;
+    flex-basis: 48%;
 
     &:nth-child(1) {
         background-image: url("../../img/logo-decor.png");
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    &:nth-child(2) {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 88px;
+            right: -162px;
+            width: 100px;
+            height: 100px;
+            background-image: url(../../img/angle.png);
+            background-size: 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 92px;
+            right: -45px;
+            width: 200px;
+            height: 105px;
+            background-image: url(../../img/arrow-decor-two.png);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.form__item .title-h2 {
+    margin-bottom: 12px;
+}
+
+.form__item .text {
+    margin-bottom: 36px;
+}
+
+@media(max-width: 1000px) {
+    .form {
+        flex-wrap: wrap;
+    }
+    
+    .form__item {
+        flex-basis: 100%;
+        
+        &:nth-child(1) {
+            display: none;
+
+    }
+}
+    .form__item:nth-child(2)::after {
+        display: none;
     }
 }

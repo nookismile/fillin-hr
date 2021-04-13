@@ -16,4 +16,10 @@
     &:hover {
         opacity: 0.7;
     }
+
+    .modal & {
+        top: -30px;
+        right: -20px;
+    }
+    
 }

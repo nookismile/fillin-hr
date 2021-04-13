@@ -4,9 +4,27 @@
 }
 
 .blog__item {
-   flex-basis: 60%;
+   flex-basis: 57%;
 
-    &:first-child {
+    &:nth-child(2) {
         flex-basis: 40%;
     }
+}
+
+.blog-card__info {
+    margin-bottom: 80px;
+}
+
+@media(max-width: 1000px) {
+    .blog__inner {
+        flex-wrap: wrap;
+    }
+
+    .blog__item {
+        flex-basis: 100%;
+     
+         &:nth-child(2) {
+             flex-basis: 100%;
+         }
+     }
 }

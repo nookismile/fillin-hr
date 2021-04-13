@@ -5,18 +5,42 @@
     color: $white;
     background: $grad;
     border-radius: 40px;
+    transition: all 0.3s ease;
 
     &:hover {
         background: $hoverGrad;
     }
 }
 
+.btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn--light {
     color: $blue;
     background: $lightGrad;
+
+    &:hover {
+        background: $hoverLightGrad;
+    }
 }
 
 .btn svg {
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    fill: $white;
+}
+
+.btn--light svg {
+    fill: $blue;
+}
+
+.btn img {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
 }

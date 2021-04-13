@@ -5,9 +5,11 @@
     padding: 90px 120px;
     background: $grad;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .banner__text {
+    z-index: 1;
     width: 40%;
     font-weight: 600;
     font-size: 24px;
@@ -24,10 +26,51 @@
     border-radius: 20px;
 }
 
+.banner__btn {
+    z-index: 1;
+}
+
 .banner__angle {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     margin: auto; 
+}
+
+@media(max-width: 1000px) {
+    .banner {
+        flex-wrap: wrap;
+        padding: 40px 120px;
+    }
+
+    .banner__text {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .banner__img {
+        right: -194px;
+    }
+    
+}
+
+@media(max-width: 600px) {
+
+    .banner {
+         padding: 40px 20px;
+    }
+    .banner__img {
+        display: none; 
+    }
+
+    .banner__angle {
+        display: none; 
+    }
+
+
+    .banner .btn {
+        padding: 14px 20px;
+    }
+
 }

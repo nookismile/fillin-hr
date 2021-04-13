@@ -1,5 +1,7 @@
 .main-menu {
-
+    @media(max-width: 1000px) {
+        display: none;
+    }
 }
 
 .main-menu__item {

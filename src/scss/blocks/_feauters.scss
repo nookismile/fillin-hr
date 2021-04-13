@@ -24,3 +24,19 @@
     font-size: 20px;
     line-height: 28px;
 }
+
+@media(max-width: 600px) {
+    .feauters {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .feauters__item {
+        width: 48%;
+        margin-left: 0;
+    }
+    .feauters__stat {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}

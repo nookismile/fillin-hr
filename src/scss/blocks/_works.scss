@@ -1,10 +1,34 @@
+.works .title-h2 {
+    margin-bottom: 12px;
+}
+
 .works__link {
     text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover svg {
+        transform: translateX(10px);
+    }
 }
 
 .works__link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     font-size: 17px;
     line-height: 28px;
     color: $blue;
+
+    &:hover {
+        color: $hoverBlue;
+    }
+}
+
+.works__link svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px; 
+    fill: $blue;
+    transition: all 0.3s ease;
 }

@@ -1,0 +1,22 @@
+.main-form__final {
+    display: flex;
+    align-items: center;
+}
+
+.main-form__final .btn {
+    margin-right: 24px;
+}
+
+@media(max-width: 1000px) {
+    .main-form__final {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-form__final .private {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+

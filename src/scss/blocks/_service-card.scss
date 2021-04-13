@@ -4,7 +4,7 @@
     justify-content: space-between;
     max-width: 333px;
     min-height: 412px;
-    margin: 0 auto;
+    margin: 0 15px;
     padding: 20px;
     border: 1px solid $grey;
     border-radius: 20px;
@@ -42,3 +42,16 @@
 .service-card:hover .service-card__title {
     color: $blue;
 }
+
+.service-list__item .service-card {
+    height: 100%;
+}
+
+@media(max-width: 1000px) {
+    .service-list__item .service-card {
+        margin: 0 auto;
+    }
+}
+
+
+

@@ -1,5 +1,14 @@
+<div class="header">
+<div class="header__block-mobile">
+    <div>
+        @include("phone.html")
+    </div>
+    <div>
+        @include("social.html")
+    </div>
+</div>
 <div class="header__top">
-    <div class="header__top-inner wrapper">
+    <div class="header__top-inner wrapper"> 
         <div class="header__top-item">
             <div>
                 @include("swipe.html")
@@ -31,8 +40,17 @@
             @include("social.html")
         </div>
         <div>
-            <a class="btn" href="#">Пригласить на тендер</a>
+            <a class="btn js-modal" href="#tender">Пригласить на тендер</a>
         </div>
     </div>
+</div>
+</div>
+<div class="header__mobile">
+    <div class="header__mobile-item">
+        <a href="#">Персоналу</a>
+    </div> 
+    <div class="header__mobile-item">
+        <a href="#">Клиентам</a>
+    </div> 
 </div>
 </div>

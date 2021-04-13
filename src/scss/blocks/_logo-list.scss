@@ -5,7 +5,7 @@
 }
 
 .logo-list__item {
-    max-width: 190px;
+    width: 190px;
     margin: 0 20px;
     margin-bottom: 40px;
     padding: 18px 20px;
@@ -27,3 +27,23 @@
         opacity: 1;
     }
 }
+
+@media(max-width: 1000px) {
+    .logo-list__item {
+        width: 107px;
+        margin: 0 5px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+    }
+}
+
+@media(max-width: 600px) {
+    .logo-list__item {
+        width: 80px;
+        margin: 0 5px;
+        margin-bottom: 40px;
+        padding: 18px 10px;
+    }
+
+}
+

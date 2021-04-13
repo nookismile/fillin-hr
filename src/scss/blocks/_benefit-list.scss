@@ -7,10 +7,56 @@
 .benefit-list__item {
     width: 17.5%;
     margin-bottom: 48px;
-    margin-right: 40px;
+    margin-right: 35px;
     list-style-type: none;
 
     &:last-child {
         margin-right: 0;
     }
 }
+
+.benefit-list__item .benefit-card {
+    height: 100%;
+}
+
+@media(max-width: 1300px) {
+    .benefit-list {
+        justify-content: space-between;
+    }
+
+    .benefit-list__item {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .benefit-list__item:nth-child(4),
+    .benefit-list__item:nth-child(5) {
+        width: 48%;
+    }
+
+    .benefit-list__item .benefit-card {
+        width: 100%;
+        max-width: none;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .benefit-list__item {
+        width: 100%;
+    }
+
+    .benefit-list__item .benefit-card {
+        min-height: auto;
+    }
+
+    .benefit-list__item:nth-child(4),
+    .benefit-list__item:nth-child(5) {
+        width: 100%;
+    }
+
+    
+}
+
+

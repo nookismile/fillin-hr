@@ -11,5 +11,21 @@
 }
 
 .section--form {
+    padding-bottom: 0;
     background: linear-gradient(90deg, #F0F0F0 0%, #F9F9F9 100%);
+    overflow: hidden;
+}
+
+.section--invitation {
+    background-image: url("../../img/back-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width: 600px) {
+    .section {
+        padding: 30px 0;
+    }  
 }

@@ -1,8 +1,17 @@
 .tagline {
+    margin-bottom: 52px;
     font-size: 20px;
     line-height: 28px;
 }
 
 .tagline--center {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 52px;
     text-align: center;
+
+    @media(max-width: 1000px) {
+        width: 100%;
+    }
 }
+

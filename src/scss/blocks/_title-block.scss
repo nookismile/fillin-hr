@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .title-block__link a {
@@ -13,8 +14,38 @@
     background-color: $lightBlue;
     border: 1px solid $greyBlue;
     border-radius: 4px;
+
+    &:hover {
+        background-color: $white;
+    }
 }
 
 .title-block__link a + a {
     margin-left: 16px;
+}
+
+@media(max-width: 1000px) {
+    .title-block .title-h2 {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .title-block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .title-block .title-h2 {
+        margin-bottom: 20px;
+    }
+
+    .title-block__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
 }

@@ -1,4 +1,10 @@
-.logo:hover {
-    opacity: 0.7;
-    cursor: pointer;
+.logo {
+    display: inline-block;
+
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
 }
+

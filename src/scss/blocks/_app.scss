@@ -1,13 +1,14 @@
 .app {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .app__item {
-    flex-basis: 60%;
+    width: 55%;
 
     &:nth-child(2) {
-        flex-basis: 40%;
+        width: 40%;
     }
 }
 
@@ -17,4 +18,18 @@
 
 .app__item a {
     margin-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+    .app {
+        flex-wrap: wrap;
+    }
+
+    .app__item {
+        width: 100%;
+    
+        &:nth-child(2) {
+            width: 100%;
+        }
+    }
 }
