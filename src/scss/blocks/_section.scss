@@ -10,10 +10,22 @@
     background-repeat: no-repeat;
 }
 
+.section--location2 {
+    padding: 200px 0;
+    background-image: url("../../img/back11.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .section--form {
     padding-bottom: 0;
     background: linear-gradient(90deg, #F0F0F0 0%, #F9F9F9 100%);
     overflow: hidden;
+}
+
+.section--grad {
+    background: $grad;
 }
 
 .section--invitation {

@@ -11,3 +11,8 @@
 .text--bold {
     font-weight: 600;
 }
+
+.text--light,
+.text--light p {
+    color: $white;
+}

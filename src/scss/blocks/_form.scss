@@ -68,3 +68,20 @@
         display: none;
     }
 }
+
+.form--blue .form__item {
+
+    &:nth-child(1) {
+        background-image: none;
+    }
+
+    &:nth-child(2) {
+        &::before {
+            content: none;
+         }
+
+        &::after {
+            content: none;
+        }
+    }
+}
