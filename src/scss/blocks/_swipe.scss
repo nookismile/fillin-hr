@@ -47,3 +47,15 @@
     top: 16px;
     width: 48%;
   }
+
+  .swipe:hover .swipe__btn span:nth-child(1) {
+    width: 48%;
+  }
+
+   .swipe:hover .swipe__btn span:nth-child(2) {
+    width: 80%;
+  }
+
+  .swipe:hover .swipe__btn span:nth-child(3) {
+    width: 100%;
+  }
