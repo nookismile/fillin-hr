@@ -1,5 +1,4 @@
 .choice-window {
-    min-width: 464px;
     padding: 40px;
     background: $white; 
     box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
@@ -22,3 +21,13 @@
 }
 
 
+@media(max-width: 600px) {
+    .choice-window__btns a + a {
+        margin-left: 6px;
+    }
+
+    .choice-window__btns .btn {
+        padding: 14px 15px;
+    }
+   
+}

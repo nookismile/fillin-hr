@@ -18,20 +18,6 @@ $(".js-modal").on("click", function (e) {
   });
 
 
-  $(".choice__link").on("click", function (e) {
-    e.preventDefault();
-    var currentModal = $(this).attr("href");
-    $(currentModal + ", #js-overlay").fadeIn(500);
-    $("body").addClass("open-modal");
-  });
-
-  $("#js-overlay, .choice-window__close").on("click", function (e) {
-    e.preventDefault();
-    $(".country__window, #js-overlay").fadeOut(100);
-    $("body").removeClass("open-modal");
-  });
-
-
   let swiper = new Swiper('.slider-app',{
     loop: true,
     centeredSlides: true,
@@ -72,10 +58,11 @@ $(".js-modal").on("click", function (e) {
 
 document.addEventListener('DOMContentLoaded', () => {
 const pushmenu = document.getElementsByClassName('swipe');
-const swipeClose = document.getElementsByClassName('swipe-close');
+
 
 	// получаем элемент с классом hidden-overley
 	const hiddenOverley = document.querySelector('.hidden-overley');
+  const btnClose = document.getElementsByClassName('swipe-close');
 
 	// отслеживаем клик клика по оверлею
 	hiddenOverley.addEventListener('click', (e) => {
@@ -90,7 +77,7 @@ const swipeClose = document.getElementsByClassName('swipe-close');
 	const pushmenuFunction = function() {
 		document.querySelector('.swipe').classList.toggle('open');
 		document.querySelector('.sidebar-menu').classList.toggle('show');
-		document.querySelector('.hidden-overley').classList.toggle('show');
+    document.querySelector('.hidden-overley').classList.toggle('show');
 		document.body.classList.toggle('sidebar-opened')
 	};
 

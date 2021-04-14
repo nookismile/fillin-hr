@@ -17,6 +17,10 @@ body {
     font-family: "Raleway", "Arial", sans-serif;
     background-color: $white;
 }
+
+body.open-modal {
+    overflow-y: hidden;
+}
 .full {
     position: relative;
     display: -webkit-box;
