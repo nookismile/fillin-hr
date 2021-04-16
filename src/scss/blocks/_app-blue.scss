@@ -1,0 +1,64 @@
+.app-blue {
+    position: relative;
+    padding: 60px 104px;
+    background: linear-gradient(270deg, #093CAA 13.54%, #3A6EDF 88.02%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.app-blue__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 433px;
+}
+
+.app-blue__inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.app-blue__inner-item {
+    width: 38%;
+
+    &:nth-child(2) {
+        width: 25%;
+    }
+}
+
+.app-blue__list {
+    margin-bottom: 40px;
+}
+
+.app-blue__list-item {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 22px;
+    font-size: 17px;
+    line-height: 28px;
+    color: $white;
+    list-style-type: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        background-image: url("../../img/vector-white.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.app-blue__text {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: $white;
+}
+

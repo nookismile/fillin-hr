@@ -1,0 +1,109 @@
+.progress {
+    border: 1px solid $grey;
+    border-radius: 20px;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+}
+
+.progress__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+
+.progress__top-item {
+    flex-basis: 30%;
+
+    &:nth-child(2) {
+        flex-basis: 60%;
+    }
+}
+
+.progress__top-number {
+    font-weight: 600;
+    font-size: 180px;
+    line-height: 180px;
+}
+
+.progress__top-number {
+    font-weight: 600;
+    font-size: 180px;
+    line-height: 180px;
+}
+
+.progress__top-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.progress__top-descr {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.progress__bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px 120px;
+    background: linear-gradient(270deg, #093CAA 13.54%, #3A6EDF 88.02%);
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+}
+
+.progress__bottom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 140px;
+    width: 300px;
+    height: 136px;
+    background-image: url(../../img/arrows.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.progress__bottom-item {
+    width: 40%;
+    margin-right: 40px; 
+
+    &:nth-child(2) {
+        width: auto;
+    }
+}
+
+.progress__bottom-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: $white;
+}
+
+.progress__img {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.progress__img-item {
+    width: 50%;
+}
+
+.progress__img img {
+    width: 300px;
+}
+
+.progress__img-text {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.progress__info {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+

@@ -1,0 +1,31 @@
+.stat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat__item {
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+}
+
+.stat-card {
+    max-width: 332px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card__number {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.stat-card__text {
+    font-size: 18px;
+    line-height: 28px; 
+}

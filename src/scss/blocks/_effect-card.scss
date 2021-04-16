@@ -1,0 +1,83 @@
+.effect-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 40px;
+    border: 1px solid $grey;
+    border-radius: 20px;
+
+    &:hover {
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+.effect-card__list {
+    
+}
+
+.effect-card__img {
+    position: relative;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 140px;
+        height: 140px;
+        background: linear-gradient(90deg, #FD3A84 9.09%, #FFA68D 90.91%);
+        border-radius: 20px;
+    }
+}
+
+.effect-card__img img {
+    width: 100%;
+}
+
+
+.effect-card__list-item {
+    position: relative;
+    padding-left: 22px;
+    list-style-type: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        background-image: url("../../img/vector.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.effect-card__title {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.effect-card__text,
+.effect-card__text p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.effect-card__list {
+
+}
+
+.effect-card__list-item {
+    margin-bottom: 12px;
+    font-size: 17px;
+    line-height: 28px;
+}

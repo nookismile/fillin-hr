@@ -18,6 +18,14 @@
     background-repeat: no-repeat;
 }
 
+.section--location3 {
+    padding: 200px 0;
+    background-image: url("../../img/back-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .section--form {
     padding-bottom: 0;
     background: linear-gradient(90deg, #F0F0F0 0%, #F9F9F9 100%);
@@ -35,6 +43,14 @@
     background-repeat: no-repeat;
 }
 
+.section--stat {
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+}
+
+.section--no-padding {
+    padding-bottom: 0;
+}
 
 @media(max-width: 600px) {
     .section {

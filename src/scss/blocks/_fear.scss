@@ -1,0 +1,21 @@
+.fear-card {
+    height: 100%;
+    padding: 30px 16px;
+    text-align: center;
+    border: 1px solid $grey;
+    border-radius: 20px;
+}
+
+.fear-card__info {
+
+}
+
+.fear-card__img {
+    margin-bottom: 24px;
+}
+
+.fear-card__title {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+}

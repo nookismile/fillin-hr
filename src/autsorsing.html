@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @include("templates/head.html")
+
+    <title>Аутсорсинг персонала - Fillin</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="full">
+        @include("templates/sidebar-menu.html")
+        @include("templates/header.html")
+        <main class="page-main">
+            <div class="hero-screen">
+                <div class="hero-screen__wrapper">
+                    <div class="hero-screen__item">
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumbs-list">
+                                <li class="breadcrumbs-list__item">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                                        </svg>
+                                    </a>
+                                    <meta itemprop="position" content="1">
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <span>Аутсорсинг персонала</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-screen__info">
+                            <div class="hero-screen__title title-h2">
+                                Аутсорсинг персонала
+                            </div>
+                            <div class="hero-screen__text">
+                                Линейный персонал в нужные сроки, в нужном количестве, согласно требованиям
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn" href="#">
+                                    <span>
+                                        Заказать услугу
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a class="btn btn--light" href="#">
+                                    <span>
+                                        Заказать просчет проекта
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
+                    </div>
+                    <div class="hero-screen__item">
+                        <picture>
+                            <img class="" src="../img/autsorsing.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <section class="section section--stat">
+                <div class="wrapper">
+                    <div class="stat">
+                        <div class="stat__item">
+                            <div class="stat-card">
+                                <div class="stat-card__number">
+                                    25000
+                                </div>
+                                <div class="stat-card__text">
+                                    активных исполнителей
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat__item">
+                            <div class="stat-card">
+                                <div class="stat-card__number">
+                                    11+
+                                </div>
+                                <div class="stat-card__text">
+                                    лет на рынке
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat__item">
+                            <div class="stat-card">
+                                <div class="stat-card__number">
+                                    9+
+                                </div>
+                                <div class="stat-card__text">
+                                    региональных офисов в Украине
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat__item">
+                            <div class="stat-card">
+                                <div class="stat-card__number">
+                                    250
+                                </div>
+                                <div class="stat-card__text">
+                                    сотрудников в штате
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Почему аутсорсинг персонала - это выгодно
+                        </div>
+                        <ul class="benefit-list">
+                            <li class="benefit-list__item">
+                                <div class="benefit-card">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/group.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Мобильность
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Возможность привлечь любое количество работников в любое время
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="benefit-list__item">
+                                <div class="benefit-card">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/stopwatch.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Эффективность
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Качественное оказание услуг квалифицированными сотрудниками в кратчайшие
+                                            сроки
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="benefit-list__item">
+                                <div class="benefit-card">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/target.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Снижение рисков
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            С Заказчика снимается вся социальная и юридическая ответственность за
+                                            рабочих
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="benefit-list__item">
+                                <div class="benefit-card">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/presentation.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Снижение нагрузки
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Снижение налоговой нагрузки на вашу организацию
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="benefit-list__item">
+                                <div class="benefit-card">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/settings.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            "Под ключ"
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Возможность отдать на аутсорсинг целый процесс
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text text--center text--bold">
+                            Если вам нужен персонал на склад, производство, в ритейл, рекламу, строительство —
+                            оформляйте заявку и получите сотрудников Fillin на следующий день.
+                        </div>
+                        <div class="btn-wrapper">
+                            <a class="btn js-modal" href="#work">Получит работу
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#icon-arrow-light"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Все про аутсорсинг персонала
+                        </div>
+                        <ul class="card-list card-list--4">
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-wrapper">
+                            <a class="btn" href="#">Перейти на Youtube-канал
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Увеличивай эффективность вместе с Fillin
+                        </div>
+                        <div class="tagline tagline--center">
+                            Передайте на аутсорсинг сложные и рутинные задачи связанные с поиском и администрированием
+                            линейного персонала
+                        </div>
+                        <ul class="card-list card-list--2">
+                            <li class="card-list__item">
+                                <div class="effect-card">
+                                    <div class="effect-card__img">
+                                        <img src="img/img1.png" alt="">
+                                    </div>
+                                    <div class="effect-card__info">
+                                        <div class="effect-card__title">
+                                            Подготовленный и обученный персонал
+                                        </div>
+                                        <div class="effect-card__text">
+                                            <p>Наши исполнители выходят на объект уже подготовленными или мы
+                                                предоставляем
+                                                льготный период для обучения</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="effect-card">
+                                    <div class="effect-card__img">
+                                        <img src="img/img2.png" alt="">
+                                    </div>
+                                    <div class="effect-card__info">
+                                        <div class="effect-card__title">
+                                            Внедрение супервайзера на проект
+                                        </div>
+                                        <ul class="effect-card__list">
+                                            <li class="effect-card__list-item">
+                                                оперативный контроль выполнения текущих работ, оплата 35 грн/час;
+                                            </li>
+                                            <li class="effect-card__list-item">
+                                                обеспечение бесперебойного оказания услуги;
+                                            </li>
+                                            <li class="effect-card__list-item">
+                                                мгновенное реагирование на нестандартные ситуации.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="effect-card">
+                                    <div class="effect-card__img">
+                                        <img src="img/img3.png" alt="">
+                                    </div>
+                                    <div class="effect-card__info">
+                                        <div class="effect-card__title">
+                                            Аутсорсинг участка
+                                        </div>
+                                        <div class="effect-card__text">
+                                            <p>Передача на аутсорсинг зон торговых, производственных и логистических
+                                                объектов.</p>
+                                            <p>Fillin берет ответственность єффективности участка на себя, а вы
+                                                показываете высокую эффективность и хороший результат </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="effect-card">
+                                    <div class="effect-card__img">
+                                        <img src="img/img4.png" alt="">
+                                    </div>
+                                    <div class="effect-card__info">
+                                        <div class="effect-card__title">
+                                            Введение KPI и прозрачной системы оценки
+                                        </div>
+                                        <div class="effect-card__text">
+                                            <p>Мы всегда стремимся оказать услугу на высшем качестве.
+                                                Поэтому предлагаем партнерам вводить KPI для оценки отдельных
+                                                исполнителей
+                                                и для аутсорсинговой компании. Комплексные KPI позволят объективно
+                                                оценивать нашу
+                                                работу и постоянно повышать продуктивность</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="progress">
+                        <div class="progress__top">
+                            <div class="progress__top-item">
+                                <div class="progress__top-number">
+                                    78%
+                                </div>
+                                <div class="progress__top-text">
+                                    новых клиентов
+                                </div>
+                            </div>
+                            <div class="progress__top-item">
+                                <div class="progress__top-descr">
+                                    Проходят по такому пути использования аутсорсинга:
+                                </div>
+                                <div class="progress__img">
+                                    <div class="progress__img-item">
+                                        <img src="img/stat1.png" alt="">
+                                        <div class="progress__img-text">
+                                            стартовая пропорция "персонал аутсорсера/собственный персонал"
+                                        </div>
+                                    </div>
+                                    <div class="progress__img-item">
+                                        <img src="img/stat2.png" alt="">
+                                        <div class="progress__img-text">
+                                            пропорция спустя 3-6 месяцев
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress__info">
+                                    Плавное внедрение аутсорсинга персонала позволяет получить все выгоды без рисков для
+                                    компании.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress__bottom">
+                            <div class="progress__bottom-item">
+                                <div class="progress__bottom-text">
+                                    Попробуйте аутсорсинг персонала на своём бизнесе!
+                                </div>
+                            </div>
+                            <div class="progress__bottom-item">
+                                <a class="btn btn--light" href="#">
+                                    <span>
+                                        Получить предложение
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section--location3">
+                <div class="location wrapper">
+                    <div class="location__item">
+                        <div class="location__title">
+                            Fillin
+                        </div>
+                        <div class="location__tagline">
+                            это вся Украина
+                        </div>
+                    </div>
+                    <div class="location__item">
+                        <div class="location__info">
+                            Предоставляем услуги по всей территории Украины!
+                        </div>
+                        <div class="location__text">
+                            решим любые вопросы с нехваткой персонала для вашего бизнеса.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Больше возможностей для вашего бизнеса
+                        </div>
+                        <div class="tagline tagline--center">
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и
+                            своевременном закрытии вашей заявки
+                        </div>
+                        <ul class="card-list card-list--5">
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/dialogue.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Собственный контакт-центр
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/computer.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Простое оформление заявки online
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/mouse.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Подтверждение смены в один клик
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/group.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Замена не подошедшего работника
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/star.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Замена не подошедшего работника
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/contact-book.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Кадровое делопроизводство
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/shield.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Конфиденциальность
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/settings.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Администрирование проектов
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/user.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Проверка персонала
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="fear-card">
+                                    <div class="fear-card__info">
+                                        <div class="fear-card__img">
+                                            <img src="../img/map.png" alt="" width="60">
+                                        </div>
+                                        <div class="fear-card__title">
+                                            Необходимое количество персонала в регионе
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            @include("templates/questions.html")
+            <section class="section">
+                <div class="wrapper">
+                    <div class="title-h2 title-h2--center">
+                        Предоставляем персонал
+                    </div>
+                    <div class="tagline tagline--center">
+                        Подберем надежных работников, соответствующих требованиям Заказчика!
+                    </div>
+                    <ul class="works-list">
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work1.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Грузчик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work2.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Продавец-кассир
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work3.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Комплектовщик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work4.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Упаковщик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work4.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Упаковщик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work4.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Упаковщик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                        <li class="works-list__item">
+                            <div class="work-card">
+                                <div class="work-card__img">
+                                    <img src="../img/work4.png" alt="">
+                                </div>
+                                <div class="work-card__info">
+                                    <div class="work-card__title">
+                                        Упаковщик
+                                    </div>
+                                    <div class="work-card__btns">
+                                        <a class="btn" href="#">
+                                            Заказать
+                                        </a>
+                                        <a class="btn btn--light" href="#">
+                                            Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-card__sticker">
+                                    от 68 грн./час
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tagline tagline--center">
+                        Широкий выбор специальных сетей для производства и розничных сетей: от мерчендайзинга до
+                        независимой инвентаризации.
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="app-blue">
+                    <div class="title-h2 title-h2--light">
+                        Наше мобильное приложение Fillin — <br>это будущее!
+                    </div>
+                    <div class="app-blue__inner">
+                        <div class="app-blue__inner-item">
+                            <ul class="app-blue__list">
+                                <li class="app-blue__list-item">
+                                    Выбирай лучшие условия на рынке
+                                </li>
+                                <li class="app-blue__list-item">
+                                    Управляй самостоятельно своим графиком и подбирай лучшее время
+                                </li>
+                                <li class="app-blue__list-item">
+                                    Получай еженедельные/ ежедневные выплаты 
+                                </li>
+                            </ul>
+                               <a class="btn btn--light" href="#">
+                                <span>
+                                    Подробнее
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="app-blue__inner-item">
+                                <div class="app-blue__text">
+                                    Скачивай приложение сейчас и участвуй в<br> B-тестировании
+                                </div>
+                                <ul class="link-list">
+                                    <li class="link-list__item">
+                                        <a class="link-wrapper__item" href="#">
+                                            <img src="../img/google.png" alt="" width="184">  
+                                        </a>
+                                    </li>
+                                    <li class="link-list__item">
+                                        <a class="link-wrapper__item" href="#">
+                                            <img src="../img/appStore.png" alt="" width="184">  
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <img class="app-blue__img" src="img/app-img.png" alt="">
+                    </div>
+                </div>
+            </section>
+            @include("templates/logo-section.html")
+            @include("templates/blog.html")
+            @include("templates/form.html")
+
+            <section class="section">
+                <div class="wrapper">
+                    <div class="content-text">
+                        Уровень нашего персонала такой же, который вы бы хотели видеть в своей компании. 
+                        Каждый сотрудник проходит аттестацию по требуемой специализации и появляется на вашем объекте 
+                    </div>
+                    <div class="column-text">
+                        <p>В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы временного персонала. 
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и своевременном закрытии вашей заявки.</p>
+
+                            <p> Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и предпринимателям линейного персонала 
+                            для выполнения определенных видов работ и производственных задач. Она предусматривает передачу аутсорсинговой компании всех
+                             функций по поиску, подбору сотрудников, выплату работникам заработной платы. 
+                             Заказчик получает в свое распоряжение квалифицированный, подготовленный персонал и оплачивает только услуги аутсорсинга.
+                            </p>
+                             
+                            <p> В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы временного персонала. 
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и своевременном закрытии вашей заявки.
+                            Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и предпринимателям линейного персонала 
+                            для выполнения определенных видов работ и производственных задач. </p>
+                            <p><strong>Внедрение супервайзера на проект для повышение эффективности услуги </strong></p>
+                            <ul class="list">
+                                <li></li>
+
+                            </ul>
+
+                    </div>
+
+
+                </div>
+            </section>
+
+
+        </main>
+
+        @include("templates/footer.html")
+        @include("templates/modal.html")
+
+    </div>
+    @include("templates/overlay.html")
+    @include("templates/scripts.html")
+</body>
+
+</html>
