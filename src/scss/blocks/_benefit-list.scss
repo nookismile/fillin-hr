@@ -5,7 +5,7 @@
 }
 
 .benefit-list__item {
-    width: 17.5%;
+    width: 18%;
     margin-bottom: 48px;
     margin-right: 35px;
     list-style-type: none;
@@ -34,6 +34,7 @@
         margin-right: 0;
     }
 
+    .benefit-list--4 .benefit-list__item,
     .benefit-list__item:nth-child(4),
     .benefit-list__item:nth-child(5) {
         width: 48%;
@@ -48,6 +49,7 @@
 
 @media(max-width: 700px) {
 
+    .benefit-list--4 .benefit-list__item,
     .benefit-list__item {
         width: 100%;
     }

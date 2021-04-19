@@ -29,6 +29,14 @@
     width: 23%;
 }
 
+.card-list--3 .card-list__item {
+    width: 30%;
+}
+
 .card-list--2 .card-list__item {
     width: 46%;
+}
+
+.card-list--3 .card-list__item > div {
+    max-width: none;
 }

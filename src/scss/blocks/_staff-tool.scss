@@ -1,0 +1,42 @@
+.staff-tool {
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff-tool__item {
+    flex-basis: 45%;
+}
+
+.staff-tool__item .title-h2 {
+    margin-bottom: 12px;
+}
+
+.staff-tool__info {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.staff-tool__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.staff-tool__list-item {
+    display: flex;
+
+    align-items: center;
+    flex-basis: 48%;
+    list-style-type: none;
+}
+.staff-tool__list-img {
+    width: 60px;
+}
+
+.staff-tool__list-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}

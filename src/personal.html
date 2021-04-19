@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @include("templates/head.html")
+
+    <title>Массовый подбор персонала - Fillin</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="full">
+        @include("templates/sidebar-menu.html")
+        @include("templates/header.html")
+        <main class="page-main">
+            <div class="hero-screen">
+                <div class="hero-screen__wrapper">
+                    <div class="hero-screen__item">
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumbs-list">
+                                <li class="breadcrumbs-list__item">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                                        </svg>
+                                    </a>
+                                    <meta itemprop="position" content="1">
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <span>Массовый подбор персонала </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-screen__info">
+                            <div class="hero-screen__title title-h2">
+                                Массовый подбор персонала
+                            </div>
+                            <div class="hero-screen__text">
+                                Массовый подбор линейного персонала с нужными навыками и в нужном количестве
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn" href="#">
+                                    <span>
+                                        Заказать услугу
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a class="btn btn--light" href="#">
+                                    <span>
+                                        Заказать просчет проекта
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
+                    </div>
+                    <div class="hero-screen__item">
+                        <picture>
+                            <img class="" src="../img/personal.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="about">
+                        <div class="about__item">
+                            <div class="main-title">
+                                <span>Fillin</span>
+                                массовый подбор персонала по всей Украине
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="stat stat--50">
+                                <div class="stat__item">
+                                    <div class="stat-card">
+                                        <div class="stat-card__number">
+                                            25000
+                                        </div>
+                                        <div class="stat-card__text">
+                                            активных исполнителей
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="stat__item">
+                                    <div class="stat-card">
+                                        <div class="stat-card__number">
+                                            11+
+                                        </div>
+                                        <div class="stat-card__text">
+                                            лет на рынке
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="stat__item">
+                                    <div class="stat-card">
+                                        <div class="stat-card__number">
+                                            9+
+                                        </div>
+                                        <div class="stat-card__text">
+                                            региональных офисов в Украине
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="stat__item">
+                                    <div class="stat-card">
+                                        <div class="stat-card__number">
+                                            250
+                                        </div>
+                                        <div class="stat-card__text">
+                                            сотрудников в штате
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section--grad section--no-padding">
+                <div class="wrapper">
+                    <div class="stat-info">
+                        <div class="title-h2 title-h2--light">
+                            Лучшие подходы поиска кандидатов
+                        </div>
+                        <div class="stat-info__block">
+                            <div class="stat-info__block-item">
+                                <div class="number number--light">
+                                    <div class="number__text">
+                                        Обеспечивают эффективность закрытия заявок на уровне
+                                    </div>
+                                    <div class="number__info">
+                                        95%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stat-info__block-item">
+                                <div class="number number--light">
+                                    <div class="number__text">
+                                        Первые кандидаты<br> уже через
+                                    </div>
+                                    <div class="number__info">
+                                        3-7 <span>дней</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-info__btn">
+                            <a class="btn btn--light" href="#">
+                                <span>
+                                    Заказать консультацию
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <img src="img/woman.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="benefit wrapper">
+                    <div class="title-h2 title-h2--center">
+                        Преимущества Fillin
+                    </div>
+                    <ul class="benefit-list">
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/contact-book1.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        База контактов
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Широкая сеть контактов исполнителей и получения рекомендации
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/computer1.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Локализация
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Локальный поиск в районах с низким проникновением Интернета и релокация
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/schedule.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Каналы трафика
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Это временная работа — удобно подрабатывать в свободное время.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/map1.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Мобильность
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Быстрое развертывание мобильного офиса в любом городе
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="benefit-list__item">
+                            <div class="benefit-card">
+                                <div class="benefit-card__info">
+                                    <div class="benefit-card__img">
+                                        <img src="../img/briefcase.png" alt="" width="60">
+                                    </div>
+                                    <div class="benefit-card__title">
+                                        Опытная команда
+                                    </div>
+                                    <div class="benefit-card__text">
+                                        Проактивная опытная команда рекрутеров
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            @include("templates/form.html")
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Как мы работаем
+                        </div>
+                        <ul class="scheme-list scheme-list--4">
+                            <li class="scheme-list__item">
+                                <img class="scheme-list__img" src="img/number1.png" alt="">
+                                <div class="scheme-list__title">
+                                    Мы понимаем ваши потребности
+                                </div>
+                            </li>
+                            <li class="scheme-list__item">
+                                <img class="scheme-list__img" src="img/number2.png" alt="">
+                                <div class="scheme-list__title">
+                                    Мы находим и отбираем кандидатов
+                                </div>
+                            </li>
+                            <li class="scheme-list__item">
+                                <img class="scheme-list__img" src="img/number3.png" alt="">
+                                <div class="scheme-list__title">
+                                    Вы выбираете лучших сотрудников
+                                </div>
+                            </li>
+                            <li class="scheme-list__item">
+                                <img class="scheme-list__img" src="img/number4.png" alt="">
+                                <div class="scheme-list__title">
+                                    Вы оплачиваете нашу работу
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text text--center text--bold">
+                            Если вам нужен персонал на склад, производство, в ритейл, рекламу, строительство —
+                            оформляйте заявку и получите сотрудников Fillin на следующий день.
+                        </div>
+                        <div class="btn-wrapper">
+                            <a class="btn js-modal" href="#order">Заказать услугу
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#icon-arrow-light"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section--location3">
+                <div class="location wrapper">
+                    <div class="location__item">
+                        <div class="location__title">
+                            Fillin
+                        </div>
+                        <div class="location__tagline">
+                            это вся Украина
+                        </div>
+                    </div>
+                    <div class="location__item">
+                        <div class="location__info">
+                            Предоставляем услуги по всей территории Украины!
+                        </div>
+                        @include("templates/phone.html")
+                        <div class="location__text">
+                            решим любые вопросы с нехваткой персонала для вашего бизнеса.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Все про массовый подбор персонала
+                        </div>
+                        <ul class="card-list card-list--4">
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-wrapper">
+                            <a class="btn" href="#">Перейти на Youtube-канал
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            @include("templates/logo-section.html")
+            @include("templates/questions.html")
+            <section class="section">
+                <div class="wrapper">
+                    <div class="content-text">
+                        Уровень нашего персонала такой же, который вы бы хотели видеть в своей компании.
+                        Каждый сотрудник проходит аттестацию по требуемой специализации и появляется на вашем объекте
+                    </div>
+                    <div class="column-text">
+                        <p>В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы
+                            временного персонала.
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и
+                            своевременном закрытии вашей заявки.</p>
+
+                        <p> Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и
+                            предпринимателям линейного персонала
+                            для выполнения определенных видов работ и производственных задач. Она предусматривает
+                            передачу аутсорсинговой компании всех
+                            функций по поиску, подбору сотрудников, выплату работникам заработной платы.
+                            Заказчик получает в свое распоряжение квалифицированный, подготовленный персонал и
+                            оплачивает только услуги аутсорсинга.
+                        </p>
+
+                        <p> В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы
+                            временного персонала.
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и
+                            своевременном закрытии вашей заявки.
+                            Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и
+                            предпринимателям линейного персонала
+                            для выполнения определенных видов работ и производственных задач. </p>
+                        <p><strong>Внедрение супервайзера на проект для повышение эффективности услуги </strong></p>
+                        <ul class="list">
+                            <li class="list__item">оперативный контроль выполнения текущих работ;</li>
+                            <li class="list__item">компания «Fillin» оказывает услуги аутсорсинга персонала в Киеве. Фирма  располагает собственной базой;</li>
+                            <li class="list__item">мгновенное реагирование на нестандартные ситуации.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        @include("templates/footer.html")
+        @include("templates/modal.html")
+
+    </div>
+    @include("templates/overlay.html")
+    @include("templates/scripts.html")
+</body>
+
+</html>

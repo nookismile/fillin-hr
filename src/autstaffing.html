@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @include("templates/head.html")
+
+    <title>Аутстаффинг персонала - Fillin</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="full">
+        @include("templates/sidebar-menu.html")
+        @include("templates/header.html")
+        <main class="page-main">
+            <div class="hero-screen">
+                <div class="hero-screen__wrapper">
+                    <div class="hero-screen__item">
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumbs-list">
+                                <li class="breadcrumbs-list__item">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-home"></use>
+                                        </svg>
+                                    </a>
+                                    <meta itemprop="position" content="1">
+                                </li>
+                                <li class="breadcrumbs-list__item">
+                                    <span>Аутстаффинг персонала</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-screen__info">
+                            <div class="hero-screen__title title-h2">
+                                Аутстаффинг персонала
+                            </div>
+                            <div class="hero-screen__text">
+                                <strong>Fillin</strong> - лидер по размеру портфеля клиентов и количеству
+                                аутстаффинг-сотрудников благодаря постоянным инновациям.
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn" href="#">
+                                    <span>
+                                        Заказать услугу
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a class="btn btn--light" href="#">
+                                    <span>
+                                        Пригласить на тендер
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
+                    </div>
+                    <div class="hero-screen__item">
+                        <picture>
+                            <img class="" src="../img/autstaf.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Fillin — ведущий HR провайдер в Украине
+                        </div>
+                        <ul class="card-list card-list--4">
+                            <li class="card-list__item">
+                                <div class="feauters-card">
+                                    <div class="feauters-card__img">
+                                        <img src="img/aut1.png" alt="">
+                                    </div>
+                                    <div class="feauters-card__title">
+                                        Заменяем на 100% работодателя
+                                    </div>
+                                    <div class="feauters-card__text">
+                                        Ваши работники не почувствуют разницу благодарю выстроенному сервису и
+                                        своевременному сбору обратной связи
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="feauters-card">
+                                    <div class="feauters-card__img feauters-card__img--green">
+                                        <img src="img/aut2.png" alt="">
+                                    </div>
+                                    <div class="feauters-card__title">
+                                        Срочное оформление
+                                    </div>
+                                    <div class="feauters-card__text">
+                                        Срочно оформляем день в день без дополнительных комиссий и оплат
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="feauters-card">
+                                    <div class="feauters-card__img feauters-card__img--blue">
+                                        <img src="img/aut3.png" alt="">
+                                    </div>
+                                    <div class="feauters-card__title">
+                                        Оформляем иностранцев
+                                    </div>
+                                    <div class="feauters-card__text">
+                                        Оформляем и поддерживаем иностранцев без дополнительных комиссий и оплат
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="feauters-card">
+                                    <div class="feauters-card__img feauters-card__img--yellow">
+                                        <img src="img/aut4.png" alt="">
+                                    </div>
+                                    <div class="feauters-card__title">
+                                        Личный менеджер
+                                    </div>
+                                    <div class="feauters-card__text">
+                                        Выделяем менеджера для вас Выделяем менеджера
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section section--grad section--no-padding">
+                <div class="wrapper">
+                    <div class="stat-info">
+                        <div class="title-h2 title-h2--light">
+                            Аутстаффинг персонала от Fillin это:
+                        </div>
+                        <div class="stat-info__block">
+                            <div class="stat-info__block-item">
+                                <div class="number number--light">
+                                    <div class="number__info">
+                                        54
+                                    </div>
+                                    <div class="number__descr">
+                                        клиента
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stat-info__block-item">
+                                <div class="number number--light">
+                                    <div class="number__info">
+                                        5000
+                                    </div>
+                                    <div class="number__descr">
+                                        стафферов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-info__btn">
+                            <a class="btn btn--light" href="#">
+                                <span>
+                                    Заказать консультацию
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <img src="img/woman.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Преимущества услуги Аутстаффинг персонала
+                        </div>
+                        <ul class="card-list card-list--3">
+                            <li class="card-list__item">
+                                <div class="benefit-card benefit-card--center">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/piggy-bank.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Снижение расходов
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Услуга предоставление персонала по 116 ФЗ помогает снизить издержки
+                                            благодаря отсутствию непрофильных сотрудников,
+                                            необходимых для кадрового администрирования, в штате.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="benefit-card benefit-card--center">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/download.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Снижение рисков
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Вся ответственность переносится на провайдера услуг стаффинга персонала.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="benefit-card benefit-card--center">
+                                    <div class="benefit-card__info">
+                                        <div class="benefit-card__img">
+                                            <img src="../img/target.png" alt="" width="60">
+                                        </div>
+                                        <div class="benefit-card__title">
+                                            Концентрация на основных бизнес-задачах
+                                        </div>
+                                        <div class="benefit-card__text">
+                                            Делегируя нам все вопросы, связанные с управлением персонала, вы получаете
+                                            возможность
+                                            полностью сфокусироваться на основных бизнес-процессах.
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            @include("templates/banner.html")
+            <section class="section">
+                <div class="wrapper">
+                    <div class="staff-tool">
+                       <div class="staff-tool__item">
+                           <img src="img/staff-tool.png" alt="">
+                       </div>
+                       <div class="staff-tool__item">
+                        <div class="title-h2 title-h2--center">
+                            Инновация — Staff Tool
+                        </div>
+                        <div class="staff-tool__info">
+                            Staff Tool — собственная разработка команды Fillin. 
+                            Staff Tool объединяет все бизнес-процессы стаффинга сотрудников в единую простую онлайн-систему.
+                        </div>
+                        <ul class="staff-tool__list">
+                            <li class="staff-tool__list-item">
+                                <div class="staff-tool__list-img">
+                                    <img src="img/startup.png" alt="">
+                                </div>
+                                <div class="staff-tool__list-text">
+                                    Быстрый доступ к заявлениям, отчетам и к любой информации для клиентов и сотрудников.
+                                </div>
+                            </li>
+                            <li class="staff-tool__list-item">
+                                <div class="staff-tool__list-img">
+                                    <img src="img/box.png" alt="">
+                                </div>
+                                <div class="staff-tool__list-text">
+                                    Весь документооборот структурирован и доступен в одном месте.
+                                </div>
+                            </li>
+                            <li class="staff-tool__list-item">
+                                <div class="staff-tool__list-img">
+                                    <img src="img/stopwatch.png" alt="">
+                                </div>
+                                <div class="staff-tool__list-text">
+                                    Экономия времени
+                                </div>
+                            </li>
+                            <li class="staff-tool__list-item">
+                                <div class="staff-tool__list-img">
+                                    <img src="img/dialogue1.png" alt="">
+                                </div>
+                                <div class="staff-tool__list-text">
+                                    Онлайн-поддержка (support/ chat/helpdesk)
+                                </div>
+                            </li>
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Собственная разработка компании Fillin для проектов Аутстаффинга
+                        </div>
+                        <div class="dev-slider">
+                            <div class="dev-slider__item">
+                                <div class="slider-for-block">
+                                    <div class="slider-thumb swiper-container">
+                                        <div class="swiper-wrapper">
+                                        <div class="slider-thumb__item swiper-slide">
+                                            <div class="dev-card">
+                                                <div class="dev-card__title">
+                                                    Контроль
+                                                </div>
+                                                <div class="dev-card__text">
+                                                    Полный контроль подрядчиков и сотрудников по соблюдению сроков оформления документов
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slider-thumb__item swiper-slide">
+                                            <div class="dev-card">
+                                                <div class="dev-card__title">
+                                                    Мобильность
+                                                </div>
+                                                <div class="dev-card__text">Создавать и потвержадать заявки можно прямо из браузера своего смартфона
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slider-thumb__item swiper-slide">
+                                            <div class="dev-card">
+                                                <div class="dev-card__title">
+                                                    Эффективность
+                                                </div>
+                                                <div class="dev-card__text">
+                                                    Сотрудники выполняют работу, а не тратят время на поиск “нужной” информации по заявлениям и справкам. Программа исключает дополнительные сверки и согласования
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slider-thumb__item swiper-slide">
+                                            <div class="dev-card">
+                                                <div class="dev-card__title">
+                                                    Отсутствие ошибок
+                                                </div>
+                                                <div class="dev-card__text">
+                                                    шаблон и автозаполнение форм исключают грамматические и стилистические ошибки. Staff tool автоматически направляет нужные заявки правильным адресатам
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dev-slider__item">
+                                <div class="slider-foto swiper-container">
+                                    <div class="swiper-wrapper">
+                                    <div class="slider-foto__item swiper-slide">
+                                        <img src="img/book.png" alt="">
+                                    </div>
+                                    <div class="slider-foto__item swiper-slide">
+                                        <img src="img/book2.png" alt="">
+                                    </div>
+                                    <div class="slider-foto__item swiper-slide">
+                                        <img src="img/book3.png" alt="">
+                                    </div>
+                                    <div class="slider-foto__item swiper-slide">
+                                        <img src="img/book2.png" alt="">
+                                    </div>
+                                    <div class="slider-product__item swiper-slide">
+                                        <img src="img/product.png" alt="">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+</div>
+</div>
+</section>
+<section class="section">
+    <div class="wrapper">
+        <div class="title-h2 title-h2--center">
+            Прозрачная схема работы
+        </div>
+        <ul class="scheme-list">
+            <li class="scheme-list__item">
+                <img class="scheme-list__img" src="img/number1.png" alt="">
+                <div class="scheme-list__title">
+                    Заявка
+                </div>
+                <div class="scheme-list__text">
+                    По телефону, почте или при встрече
+                </div>
+            </li>
+            <li class="scheme-list__item">
+                <img class="scheme-list__img" src="img/number2.png" alt="">
+                <div class="scheme-list__title">
+                    Калькуляция
+                </div>
+                <div class="scheme-list__text">
+                    Расчет стоимости в течении нескольких часов
+                </div>
+            </li>
+            <li class="scheme-list__item">
+                <img class="scheme-list__img" src="img/number3.png" alt="">
+                <div class="scheme-list__title">
+                    Договор
+                </div>
+                <div class="scheme-list__text">
+                    Обсуждаем все детали и специфику проекта
+                </div>
+            </li>
+            <li class="scheme-list__item">
+                <img class="scheme-list__img" src="img/number4.png" alt="">
+                <div class="scheme-list__title">
+                    Запуск проекта
+                </div>
+                <div class="scheme-list__text">
+                    Мы запускаем проект любой сложности в течении трёх недель
+                </div>
+            </li>
+            <li class="scheme-list__item">
+                <img class="scheme-list__img" src="img/number5.png" alt="">
+                <div class="scheme-list__title">
+                    Отчет
+                </div>
+                <div class="scheme-list__text">
+                    Закрываем период. Подписываем акты. Выставляем счета
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="section">
+                <div class="wrapper">
+                    <div class="benefit">
+                        <div class="title-h2 title-h2--center">
+                            Все про аутстаффинг персонала
+                        </div>
+                        <ul class="card-list card-list--4">
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-list__item">
+                                <div class="info-card">
+                                    <div class="info-card__video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="info-card__title">
+                                        Заголовок видео пример на несколько строк
+                                    </div>
+                                    <div class="info-card__text">
+                                        Марина Сударева. Линейный персонал в один клик (29.11.19) | For HR
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-wrapper">
+                            <a class="btn" href="#">Перейти на Youtube-канал
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            @include("templates/logo-section.html")
+            @include("templates/form.html")
+            <section class="section">
+                <div class="wrapper">
+                    <div class="content-text">
+                        Уровень нашего персонала такой же, который вы бы хотели видеть в своей компании.
+                        Каждый сотрудник проходит аттестацию по требуемой специализации и появляется на вашем объекте
+                    </div>
+                    <div class="column-text">
+                        <p>В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы
+                            временного персонала.
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и
+                            своевременном закрытии вашей заявки.</p>
+
+                        <p> Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и
+                            предпринимателям линейного персонала
+                            для выполнения определенных видов работ и производственных задач. Она предусматривает
+                            передачу аутсорсинговой компании всех
+                            функций по поиску, подбору сотрудников, выплату работникам заработной платы.
+                            Заказчик получает в свое распоряжение квалифицированный, подготовленный персонал и
+                            оплачивает только услуги аутсорсинга.
+                        </p>
+
+                        <p> В каждую группу мы можем включать специалиста, выполняющего контроль эффективности работы
+                            временного персонала.
+                            Благодаря обратной связи в режиме реального времени вы можете быть уверены в точном и
+                            своевременном закрытии вашей заявки.
+                            Аутсорсинг персонала — кадровая услуга, ориентированная на предоставление компаниям и
+                            предпринимателям линейного персонала
+                            для выполнения определенных видов работ и производственных задач. </p>
+                        <p><strong>Внедрение супервайзера на проект для повышение эффективности услуги </strong></p>
+                        <ul class="list">
+                            <li class="list__item">оперативный контроль выполнения текущих работ;</li>
+                            <li class="list__item">компания «Fillin» оказывает услуги аутсорсинга персонала в Киеве. Фирма  располагает собственной базой;</li>
+                            <li class="list__item">мгновенное реагирование на нестандартные ситуации.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        @include("templates/footer.html")
+        @include("templates/modal.html")
+
+    </div>
+    @include("templates/overlay.html")
+    @include("templates/scripts.html")
+</body>
+
+</html>

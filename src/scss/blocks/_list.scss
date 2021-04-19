@@ -1,7 +1,25 @@
 .list {
-
+ 
 }
 
 .list li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 22px;
+    font-size: 17px;
+    line-height: 28px;
     list-style-type: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        background-image: url(../../img/vector.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }

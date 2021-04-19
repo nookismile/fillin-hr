@@ -64,6 +64,15 @@
 
     }
 }
+
+.form--blue {
+    text-align: center;
+}
+
+.form--blue .form__item:nth-child(1) {
+    display: block;
+}
+
     .form__item:nth-child(2)::after {
         display: none;
     }
@@ -85,3 +94,4 @@
         }
     }
 }
+

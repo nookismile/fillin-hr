@@ -84,3 +84,10 @@
 .swiper-container-rtl .swiper-button-next {
     left: 0;
 }
+
+@media(max-width: 1000px) {
+    .mobilescreen-image {
+        top: 44px;
+        width: 268px;
+    }
+}

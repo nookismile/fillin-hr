@@ -29,3 +29,13 @@
     font-size: 18px;
     line-height: 28px; 
 }
+
+
+.stat--50 {
+    justify-content: space-between;
+}
+
+.stat--50 .stat__item {
+    width: 48%;
+    margin-bottom: 25px;
+}
