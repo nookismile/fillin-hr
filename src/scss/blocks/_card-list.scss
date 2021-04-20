@@ -40,3 +40,18 @@
 .card-list--3 .card-list__item > div {
     max-width: none;
 }
+
+@media(max-width: 1000px) {
+
+    .card-list--4 .card-list__item {
+        width: 45%;
+    }
+}
+
+
+@media(max-width: 600px) {
+
+    .card-list--4 .card-list__item {
+        width: 100%;
+    }
+}

@@ -21,8 +21,9 @@
         @include("templates/header.html")
         <main class="page-main">
             <div class="hero-screen">
-                <div class="hero-screen__wrapper">
-                    <div class="hero-screen__item">
+                <div class="hero-screen__wrapper">                   
+                    <div class="hero-screen__inner">
+                        <div class="wrapper">
                         <div class="breadcrumbs">
                             <ul class="breadcrumbs-list">
                                 <li class="breadcrumbs-list__item">
@@ -40,12 +41,33 @@
                         </div>
                         <div class="hero-screen__info">
                             <div class="hero-screen__title title-h2">
-                                Массовый подбор персонала
+                                Массовый подбор<br> персонала
                             </div>
                             <div class="hero-screen__text">
                                 Массовый подбор линейного персонала с нужными навыками и в нужном количестве
                             </div>
-                            <div class="btn-wrapper">
+                            <ul class="hero-screen__list">
+                                <li class="hero-screen__list-item">
+                                    <img src="img/briefcase.png" alt="" width="40">
+                                    <div class="hero-screen__list-text">
+                                        С необходимыми<br> навыками
+                                    </div>
+                                </li>
+                                <li class="hero-screen__list-item">
+                                    <img src="img/schedule.png" alt="" width="40">
+                                    <div class="hero-screen__list-text">
+                                        Короткие сроки
+                                    </div>
+                                </li>
+                                <li class="hero-screen__list-item">
+                                    <img src="img/map1.png" alt="" width="40">
+                                    <div class="hero-screen__list-text">
+                                        По всей Украине
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="btn-wrapper btn-wrapper--start">
                                 <a class="btn" href="#">
                                     <span>
                                         Заказать услугу
@@ -63,15 +85,23 @@
                                     </span>
                                 </a>
                             </div>
+                            <!-- <img class="hero-screen__img" src="img/fillin-logo.png" alt=""> -->
                         </div>
-                        <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
+                        
                     </div>
+                    </div>
+             
                     <div class="hero-screen__item">
                         <picture>
                             <img class="" src="../img/personal.png" alt="">
                         </picture>
                     </div>
+                        
+                   
                 </div>
+                <!-- <picture class="hero-screen__back">
+                    <img class="" src="../img/personal.png" alt="">
+                </picture> -->
             </div>
             <section class="section">
                 <div class="wrapper">

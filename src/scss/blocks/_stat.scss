@@ -12,6 +12,7 @@
 
 .stat-card {
     max-width: 332px;
+    height: 100%;
     margin: 0 auto;
     padding: 40px 20px;
     border-radius: 20px;
@@ -38,4 +39,10 @@
 .stat--50 .stat__item {
     width: 48%;
     margin-bottom: 25px;
+}
+
+@media(max-width: 600px) {
+    .stat--50 .stat__item {
+        width: 100%;
+    }
 }

@@ -58,9 +58,15 @@
         width: 28%;
         margin-bottom: 110px;
     }
+
+    .scheme-list--4 .scheme-list__item {
+        width: 45%;
+    }
 }
 
 @media(max-width: 700px) {
+
+    .scheme-list--4 .scheme-list__item,
     .scheme-list__item {
         width: 100%;
         margin-right: 0;

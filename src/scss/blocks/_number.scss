@@ -32,3 +32,8 @@
     line-height: 36px;
 }
     
+@media(max-width: 1440px) {
+    .number__info span {
+        display: block;
+    }
+}
