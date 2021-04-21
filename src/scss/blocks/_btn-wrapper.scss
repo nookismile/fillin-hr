@@ -11,3 +11,19 @@
 .btn-wrapper a + a {
     margin-left: 20px;
 }
+
+@media(max-width: 600px) {
+    .btn-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .btn-wrapper a + a {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .btn-wrapper a {
+        padding: 24px 20px;
+    }
+}

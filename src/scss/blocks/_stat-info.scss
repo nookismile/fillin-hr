@@ -71,6 +71,7 @@
     .stat-info__block {
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-bottom: 30px;
     }
 
     .stat-info__block-item {
@@ -81,5 +82,9 @@
             margin-bottom: 40px;
         }
     } 
+
+    .stat-info__btn {
+        margin-bottom: 30px;
+    }
 
 }

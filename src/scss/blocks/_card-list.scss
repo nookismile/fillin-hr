@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.card-list.card-list--2 {
+    justify-content: space-between;
+}
+
 .card-list__item {
     width: 17.5%;
     margin-bottom: 48px;
@@ -16,13 +20,9 @@
 }
 
 .card-list--5 .card-list__item {
-    width: 17.5%;
-    margin-right: 35px;
-
-    &:last-child,
-    &:nth-child(5n+5) {
-        margin-right: 0;
-    }
+    width: 17%;
+    margin: 0 20px;
+    margin-bottom: 20px;
 }
 
 .card-list--4 .card-list__item {
@@ -35,23 +35,46 @@
 
 .card-list--2 .card-list__item {
     width: 46%;
+    margin-right: 0;
 }
 
 .card-list--3 .card-list__item > div {
     max-width: none;
 }
 
+
+@media(max-width: 1440px) {
+.card-list--5 .card-list__item {
+    width: 28%;
+}
+}
+
+
 @media(max-width: 1000px) {
+
+    .card-list--2 .card-list__item {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 48px;
+      }
 
     .card-list--4 .card-list__item {
         width: 45%;
+    }
+
+    .card-list--5 .card-list__item {
+        width: 100%;
     }
 }
 
 
 @media(max-width: 600px) {
+    .card-list--2 .card-list__item {
+        width: 100%;
+      }
 
     .card-list--4 .card-list__item {
         width: 100%;
+        margin-right: 0;
     }
 }

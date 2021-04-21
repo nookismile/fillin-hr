@@ -1,6 +1,8 @@
 .effect-card {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
     padding: 26px 40px;
     border: 1px solid $grey;
     border-radius: 20px;
@@ -10,32 +12,53 @@
     }
 }
 
-
-.effect-card__list {
-    
-}
-
 .effect-card__img {
     position: relative;
     z-index: 2;
+    display: inline-block;
     width: 200px;
     height: 200px;
+    margin-left: -80px;
 
     &::before {
         content: "";
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 40px;
+        right: -25px;
         z-index: -1;
-        width: 140px;
-        height: 140px;
+        width: 180px;
+        height: 180px;
         background: linear-gradient(90deg, #FD3A84 9.09%, #FFA68D 90.91%);
         border-radius: 20px;
     }
 }
 
+.effect-card__img--green {
+    &::before {
+        background: linear-gradient(120deg, #00B59C 0%, #9CFFAC 100%);
+    }
+}
+
+.effect-card__img--blue {
+    &::before {
+        background: linear-gradient(120deg, #5558FF 0%, #00C0FF 100%);
+    }
+}
+
+
+.effect-card__img--yellow {
+    &::before {
+        background: linear-gradient(120deg, #FD5900 0%, #FFDE00 100%);
+    }
+}
+
 .effect-card__img img {
     width: 100%;
+}
+
+.effect-card__info {
+    display: inline-block;
+    width: 65%;
 }
 
 
@@ -80,4 +103,23 @@
     margin-bottom: 12px;
     font-size: 17px;
     line-height: 28px;
+}
+
+
+@media(min-width: 1000px) and (max-width: 1440px) {
+    .effect-card__img {
+        width: 180px;
+        height: 180px;
+
+        &::before {
+            width: 160px;
+            height: 160px;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .effect-card {
+        flex-wrap: wrap;
+    }
 }

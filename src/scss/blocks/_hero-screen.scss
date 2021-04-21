@@ -1,6 +1,6 @@
 .hero-screen {
     position: relative;
-    // height: 720px;
+    height: 720px;
 }
 
 .hero-screen__wrapper {
@@ -26,27 +26,39 @@
     height: 100%;
 }
 
+.hero-screen__picture {
+    width: 100%;
+}
+
+.hero-screen__picture img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero-screen__inner {
     position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        margin: auto;
-        
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;    
 }
 
 .hero-screen__info {
-    width: 50%;
+    position: relative;
+    width: 45%;
     height: 100%;
-    background-image: url("../../img/fillin-logo.png");
-    background-size: cover;
-    background-position:  bottom right;
-    background-repeat: no-repeat;
+    // background-image: url("../../img/fillin-logo.png");
+    // background-size: 100%;
+    // background-position:  bottom right;
+    // background-repeat: no-repeat;
 }
 
 .hero-screen__title {
     margin-bottom: 24px;
+    font-size: 64px;
+    line-height: 64px;
 }
 
 .hero-screen__text {
@@ -55,21 +67,14 @@
     line-height: 28px;
 }
 
-// .hero-screen__back {
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     width: 50%;
-//     height: 100%;
-// }
-
-
-
-// .hero-screen__img {
-//     position: absolute;
-//     bottom: 0;
-//     left: 0;
-// }
+.hero-screen__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 .hero-screen__list {
     display: flex;
@@ -90,4 +95,64 @@
     margin-top: 15px;
     font-size: 17px;
     line-height: 28px;  
+}
+
+@media(max-width: 1000px) {
+    .hero-screen {
+        height: auto;
+    }
+
+    .hero-screen__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .hero-screen__inner {
+        position: relative;
+    }
+
+    .hero-screen__item {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .hero-screen__img {
+        position: relative;
+        display: block;
+        margin-top: 40px;
+    }
+
+    .hero-screen__picture img {
+        width: 100%;
+        height: auto
+    }
+
+    .hero-screen__info {
+        width: 100%;
+    }
+
+    .hero-screen__title {
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+    } 
+
+    .hero-screen__text {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .hero-screen__list {
+        justify-content: center;
+    }
+
+    .btn-wrapper--start {
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .hero-screen__list {
+        display: none;
+    }
 }
