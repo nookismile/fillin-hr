@@ -1,10 +1,11 @@
 .staff-tool {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .staff-tool__item {
-    flex-basis: 45%;
+    flex-basis: 48%;
 }
 
 .staff-tool__item .title-h2 {
@@ -26,17 +27,37 @@
 
 .staff-tool__list-item {
     display: flex;
-
+    justify-content: space-between;
     align-items: center;
     flex-basis: 48%;
+    margin-bottom: 40px;
+    text-align: left;
     list-style-type: none;
 }
 .staff-tool__list-img {
     width: 60px;
+    margin-right: 24px;
 }
 
 .staff-tool__list-text {
+    width: 90%;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
+}
+
+@media(max-width: 1200px) {
+    
+.staff-tool__item {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+}
+
+@media(max-width: 600px) {
+
+    .staff-tool__list-item {
+        flex-basis: 100%;
+    }
 }

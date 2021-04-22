@@ -50,7 +50,7 @@
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 1200px) {
 
     .card-list--2 .card-list__item {
         width: 85%;
@@ -58,8 +58,18 @@
         margin-bottom: 48px;
       }
 
+      .card-list--3 .card-list__item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .card-list.card-list--4 {
+        justify-content: space-between;
+    }
+
     .card-list--4 .card-list__item {
-        width: 45%;
+        width: 48%;
+        margin-right: 0;
     }
 
     .card-list--5 .card-list__item {

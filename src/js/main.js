@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   $(".js-modal").on("click", function (e) {
     e.preventDefault();
-    var currentModal = $(this).attr("href");
+    let currentModal = $(this).attr("href");
     $(currentModal + ", #js-overlay").fadeIn(500);
     $("body").addClass("open-modal");
 
@@ -60,9 +60,15 @@ $(document).ready(function () {
     watchSlidesProgress: true,
     direction: 'vertical',
     breakpoints: {
-      500: {
+      300: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+        direction: 'horizontal',
+      },
+      1000: {
         slidesPerView: 4,
         spaceBetween: 15,
+        direction: 'vertical',
       },
     },
   });
@@ -73,6 +79,9 @@ $(document).ready(function () {
       swiper: sliderThumb,
     },
   });
+
+
+  
 
   
 });
