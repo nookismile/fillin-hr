@@ -80,54 +80,32 @@ $(document).ready(function () {
     },
   });
 
-
-  
-
-  
-});
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  const pushmenu = document.getElementsByClassName('swipe');
-
-
-  // получаем элемент с классом hidden-overley
-  const hiddenOverley = document.querySelector('.hidden-overley');
-  const btnClose = document.getElementsByClassName('swipe-close');
-
-  // отслеживаем клик клика по оверлею
-  hiddenOverley.addEventListener('click', (e) => {
-    e.currentTarget.classList.toggle('show');
-    document.querySelector('.sidebar-menu').classList.toggle('show');
-    document.querySelector('body').classList.toggle('sidebar-opened');
-    for (i = 0; i < pushmenu.length; i++) {
-      pushmenu[i].classList.toggle('open');
-    }
+  $(".swipe").on("click", function (e) {
+    e.preventDefault();
+    $(".sidebar-menu").toggleClass('show');
+    $(".hidden-overlay").toggleClass('show');
   });
 
-  const pushmenuFunction = function () {
-    document.querySelector('.swipe').classList.toggle('open');
-    document.querySelector('.sidebar-menu').classList.toggle('show');
-    document.querySelector('.hidden-overley').classList.toggle('show');
-    document.body.classList.toggle('sidebar-opened')
-  };
+  
+  $(".swipe-close").on("click", function (e) {
+    e.preventDefault();
+    $(".sidebar-menu").toggleClass('show');
+    $(".hidden-overlay").toggleClass('show');
+  });
 
-  // Отслеживаем клики кнопок с классом pushmenu 
-  for (i = 0; i < pushmenu.length; i++) {
-    pushmenu[i].addEventListener('click', pushmenuFunction, false);
-  }
+  $(".hidden-overlay").on("click", function (e) {
+    e.preventDefault();
+    $(this).toggleClass('show');
+    $(".sidebar-menu").toggleClass('show');
+  });
 
-  // Получим все родительские элементы в меню
-  const sidebarAccordeon = document.querySelectorAll('.sidebar-menu .menu-parent-item a:first-child');
-  const accordeonFunction = function () {
-    this.parentNode.querySelector('ul').classList.toggle('show');
-    this.querySelector('span').classList.toggle('rotate');
-  }
-  // Отслеживаем клики родительских пунктов меню 
-  for (i = 0; i < sidebarAccordeon.length; i++) {
-    sidebarAccordeon[i].addEventListener('click', accordeonFunction, false);
-  }
+ 
+  $(".menu-parent-item").on("click", function (e) {
+    e.preventDefault();
+    $(this).find(".sub-menu").toggleClass('show');
+  });
 
 
 
 });
+

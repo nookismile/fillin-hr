@@ -21,62 +21,62 @@
         @include("templates/header.html")
         <main class="page-main">
             <div class="hero-screen">
-                <div class="hero-screen__wrapper">                   
+                <div class="hero-screen__wrapper">
                     <div class="hero-screen__inner">
                         <div class="wrapper">
-                        <div class="hero-screen__info">
-                            <div class="breadcrumbs">
-                                <ul class="breadcrumbs-list">
-                                    <li class="breadcrumbs-list__item">
-                                        <a href="#">
+                            <div class="hero-screen__info">
+                                <div class="breadcrumbs">
+                                    <ul class="breadcrumbs-list">
+                                        <li class="breadcrumbs-list__item">
+                                            <a href="#">
+                                                <svg>
+                                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                                </svg>
+                                            </a>
+                                            <meta itemprop="position" content="1">
+                                        </li>
+                                        <li class="breadcrumbs-list__item">
+                                            <span>Аутстаффинг персонала</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="hero-screen__title title-h2">
+                                    Аутстаффинг персонала
+                                </div>
+                                <div class="hero-screen__text">
+                                    <strong>Fillin</strong> - лидер по размеру портфеля клиентов и количеству
+                                    аутстаффинг-сотрудников благодаря постоянным инновациям.
+                                </div>
+                                <div class="btn-wrapper btn-wrapper--start">
+                                    <a class="btn" href="#">
+                                        <span>
+                                            Заказать услугу
                                             <svg>
-                                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                                                <use xlink:href="img/sprite.svg#icon-arrow"></use>
                                             </svg>
-                                        </a>
-                                        <meta itemprop="position" content="1">
-                                    </li>
-                                    <li class="breadcrumbs-list__item">
-                                        <span>Аутстаффинг персонала</span>
-                                    </li>
-                                </ul>
+                                        </span>
+                                    </a>
+                                    <a class="btn btn--light" href="#">
+                                        <span>
+                                            Пригласить на тендер
+                                            <svg>
+                                                <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
                             </div>
-                            <div class="hero-screen__title title-h2">
-                                Аутстаффинг персонала
-                            </div>
-                            <div class="hero-screen__text">
-                                <strong>Fillin</strong> - лидер по размеру портфеля клиентов и количеству
-                                аутстаффинг-сотрудников благодаря постоянным инновациям.
-                            </div>
-                            <div class="btn-wrapper btn-wrapper--start">
-                                <a class="btn" href="#">
-                                    <span>
-                                        Заказать услугу
-                                        <svg>
-                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
-                                        </svg>
-                                    </span>
-                                </a>
-                                <a class="btn btn--light" href="#">
-                                    <span>
-                                        Пригласить на тендер
-                                        <svg>
-                                            <use xlink:href="img/sprite.svg#icon-arrow"></use>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                            <img class="hero-screen__img" src="img/fillin-logo.png" alt="">
                         </div>
-                    </div>
                     </div>
                     <div class="hero-screen__item">
                         <picture class="hero-screen__picture">
                             <source media="(max-width: 1000px)" srcset="../img/autstaf2.png">
                             <img src="../img/autstaf.png" alt="">
                         </picture>
-                    </div>                   
+                    </div>
                 </div>
-              </div>
+            </div>
             <section class="section">
                 <div class="wrapper">
                     <div class="benefit">
@@ -247,52 +247,54 @@
             <section class="section">
                 <div class="wrapper">
                     <div class="staff-tool">
-                       <div class="staff-tool__item">
-                           <img src="img/staff-tool.png" alt="">
-                       </div>
-                       <div class="staff-tool__item">
-                        <div class="title-h2 title-h2--center">
-                            Инновация — Staff Tool
+                        <div class="staff-tool__item">
+                            <img src="img/staff-tool.png" alt="">
                         </div>
-                        <div class="staff-tool__info">
-                            Staff Tool — собственная разработка команды Fillin. 
-                            Staff Tool объединяет все бизнес-процессы стаффинга сотрудников в единую простую онлайн-систему.
-                        </div>
-                        <ul class="staff-tool__list">
-                            <li class="staff-tool__list-item">
-                                <div class="staff-tool__list-img">
-                                    <img src="img/startup.png" alt="">
-                                </div>
-                                <div class="staff-tool__list-text">
-                                    Быстрый доступ к заявлениям, отчетам и к любой информации для клиентов и сотрудников.
-                                </div>
-                            </li>
-                            <li class="staff-tool__list-item">
-                                <div class="staff-tool__list-img">
-                                    <img src="img/box.png" alt="">
-                                </div>
-                                <div class="staff-tool__list-text">
-                                    Весь документооборот структурирован и доступен в одном месте.
-                                </div>
-                            </li>
-                            <li class="staff-tool__list-item">
-                                <div class="staff-tool__list-img">
-                                    <img src="img/stopwatch.png" alt="">
-                                </div>
-                                <div class="staff-tool__list-text">
-                                    Экономия времени
-                                </div>
-                            </li>
-                            <li class="staff-tool__list-item">
-                                <div class="staff-tool__list-img">
-                                    <img src="img/dialogue1.png" alt="">
-                                </div>
-                                <div class="staff-tool__list-text">
-                                    Онлайн-поддержка (support/ chat/helpdesk)
-                                </div>
-                            </li>
+                        <div class="staff-tool__item">
+                            <div class="title-h2 title-h2--center">
+                                Инновация — Staff Tool
+                            </div>
+                            <div class="staff-tool__info">
+                                Staff Tool — собственная разработка команды Fillin.
+                                Staff Tool объединяет все бизнес-процессы стаффинга сотрудников в единую простую
+                                онлайн-систему.
+                            </div>
+                            <ul class="staff-tool__list">
+                                <li class="staff-tool__list-item">
+                                    <div class="staff-tool__list-img">
+                                        <img src="img/startup.png" alt="">
+                                    </div>
+                                    <div class="staff-tool__list-text">
+                                        Быстрый доступ к заявлениям, отчетам и к любой информации для клиентов и
+                                        сотрудников.
+                                    </div>
+                                </li>
+                                <li class="staff-tool__list-item">
+                                    <div class="staff-tool__list-img">
+                                        <img src="img/box.png" alt="">
+                                    </div>
+                                    <div class="staff-tool__list-text">
+                                        Весь документооборот структурирован и доступен в одном месте.
+                                    </div>
+                                </li>
+                                <li class="staff-tool__list-item">
+                                    <div class="staff-tool__list-img">
+                                        <img src="img/stopwatch.png" alt="">
+                                    </div>
+                                    <div class="staff-tool__list-text">
+                                        Экономия времени
+                                    </div>
+                                </li>
+                                <li class="staff-tool__list-item">
+                                    <div class="staff-tool__list-img">
+                                        <img src="img/dialogue1.png" alt="">
+                                    </div>
+                                    <div class="staff-tool__list-text">
+                                        Онлайн-поддержка (support/ chat/helpdesk)
+                                    </div>
+                                </li>
                             </ul>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -307,68 +309,74 @@
                                 <div class="slider-for-block">
                                     <div class="slider-thumb swiper-container">
                                         <div class="swiper-wrapper">
-                                        <div class="slider-thumb__item swiper-slide">
-                                            <div class="dev-card">
-                                                <div class="dev-card__title">
-                                                    Контроль
+                                            <div class="slider-thumb__item swiper-slide">
+                                                <div class="dev-card">
+                                                    <div class="dev-card__title">
+                                                        Контроль
+                                                    </div>
+                                                    <div class="dev-card__text">
+                                                        Полный контроль подрядчиков и сотрудников по соблюдению сроков
+                                                        оформления документов
+                                                    </div>
                                                 </div>
-                                                <div class="dev-card__text">
-                                                    Полный контроль подрядчиков и сотрудников по соблюдению сроков оформления документов
+                                            </div>
+                                            <div class="slider-thumb__item swiper-slide">
+                                                <div class="dev-card">
+                                                    <div class="dev-card__title">
+                                                        Мобильность
+                                                    </div>
+                                                    <div class="dev-card__text">Создавать и потвержадать заявки можно
+                                                        прямо из браузера своего смартфона
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slider-thumb__item swiper-slide">
+                                                <div class="dev-card">
+                                                    <div class="dev-card__title">
+                                                        Эффективность
+                                                    </div>
+                                                    <div class="dev-card__text">
+                                                        Сотрудники выполняют работу, а не тратят время на поиск “нужной”
+                                                        информации по заявлениям и справкам. Программа исключает
+                                                        дополнительные сверки и согласования
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slider-thumb__item swiper-slide">
+                                                <div class="dev-card">
+                                                    <div class="dev-card__title">
+                                                        Отсутствие ошибок
+                                                    </div>
+                                                    <div class="dev-card__text">
+                                                        шаблон и автозаполнение форм исключают грамматические и
+                                                        стилистические ошибки. Staff tool автоматически направляет
+                                                        нужные заявки правильным адресатам
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="slider-thumb__item swiper-slide">
-                                            <div class="dev-card">
-                                                <div class="dev-card__title">
-                                                    Мобильность
-                                                </div>
-                                                <div class="dev-card__text">Создавать и потвержадать заявки можно прямо из браузера своего смартфона
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slider-thumb__item swiper-slide">
-                                            <div class="dev-card">
-                                                <div class="dev-card__title">
-                                                    Эффективность
-                                                </div>
-                                                <div class="dev-card__text">
-                                                    Сотрудники выполняют работу, а не тратят время на поиск “нужной” информации по заявлениям и справкам. Программа исключает дополнительные сверки и согласования
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slider-thumb__item swiper-slide">
-                                            <div class="dev-card">
-                                                <div class="dev-card__title">
-                                                    Отсутствие ошибок
-                                                </div>
-                                                <div class="dev-card__text">
-                                                    шаблон и автозаполнение форм исключают грамматические и стилистические ошибки. Staff tool автоматически направляет нужные заявки правильным адресатам
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dev-slider__item">
                                 <div class="slider-foto swiper-container">
                                     <div class="swiper-wrapper">
-                                    <div class="slider-foto__item swiper-slide">
-                                        <img src="img/book.png" alt="">
+                                        <div class="slider-foto__item swiper-slide">
+                                            <img src="img/book.png" alt="">
+                                        </div>
+                                        <div class="slider-foto__item swiper-slide">
+                                            <img src="img/book2.png" alt="">
+                                        </div>
+                                        <div class="slider-foto__item swiper-slide">
+                                            <img src="img/book3.png" alt="">
+                                        </div>
+                                        <div class="slider-foto__item swiper-slide">
+                                            <img src="img/book2.png" alt="">
+                                        </div>
+                                        <div class="slider-product__item swiper-slide">
+                                            <img src="img/product.png" alt="">
+                                        </div>
                                     </div>
-                                    <div class="slider-foto__item swiper-slide">
-                                        <img src="img/book2.png" alt="">
-                                    </div>
-                                    <div class="slider-foto__item swiper-slide">
-                                        <img src="img/book3.png" alt="">
-                                    </div>
-                                    <div class="slider-foto__item swiper-slide">
-                                        <img src="img/book2.png" alt="">
-                                    </div>
-                                    <div class="slider-product__item swiper-slide">
-                                        <img src="img/product.png" alt="">
-                                    </div>
-                                </div>
                                 </div>
                             </div>
                         </div>
@@ -379,65 +387,64 @@
                                 </svg>
                             </a>
                         </div>
-
-</div>
-</div>
-</section>
-<section class="section">
-    <div class="wrapper">
-        <div class="title-h2 title-h2--center">
-            Прозрачная схема работы
-        </div>
-        <ul class="scheme-list">
-            <li class="scheme-list__item">
-                <img class="scheme-list__img" src="img/number1.png" alt="">
-                <div class="scheme-list__title">
-                    Заявка
+                    </div>
                 </div>
-                <div class="scheme-list__text">
-                    По телефону, почте или при встрече
+            </section>
+            <section class="section">
+                <div class="wrapper">
+                    <div class="title-h2 title-h2--center">
+                        Прозрачная схема работы
+                    </div>
+                    <ul class="scheme-list">
+                        <li class="scheme-list__item">
+                            <img class="scheme-list__img" src="img/number1.png" alt="">
+                            <div class="scheme-list__title">
+                                Заявка
+                            </div>
+                            <div class="scheme-list__text">
+                                По телефону, почте или при встрече
+                            </div>
+                        </li>
+                        <li class="scheme-list__item">
+                            <img class="scheme-list__img" src="img/number2.png" alt="">
+                            <div class="scheme-list__title">
+                                Калькуляция
+                            </div>
+                            <div class="scheme-list__text">
+                                Расчет стоимости в течении нескольких часов
+                            </div>
+                        </li>
+                        <li class="scheme-list__item">
+                            <img class="scheme-list__img" src="img/number3.png" alt="">
+                            <div class="scheme-list__title">
+                                Договор
+                            </div>
+                            <div class="scheme-list__text">
+                                Обсуждаем все детали и специфику проекта
+                            </div>
+                        </li>
+                        <li class="scheme-list__item">
+                            <img class="scheme-list__img" src="img/number4.png" alt="">
+                            <div class="scheme-list__title">
+                                Запуск проекта
+                            </div>
+                            <div class="scheme-list__text">
+                                Мы запускаем проект любой сложности в течении трёх недель
+                            </div>
+                        </li>
+                        <li class="scheme-list__item">
+                            <img class="scheme-list__img" src="img/number5.png" alt="">
+                            <div class="scheme-list__title">
+                                Отчет
+                            </div>
+                            <div class="scheme-list__text">
+                                Закрываем период. Подписываем акты. Выставляем счета
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li class="scheme-list__item">
-                <img class="scheme-list__img" src="img/number2.png" alt="">
-                <div class="scheme-list__title">
-                    Калькуляция
-                </div>
-                <div class="scheme-list__text">
-                    Расчет стоимости в течении нескольких часов
-                </div>
-            </li>
-            <li class="scheme-list__item">
-                <img class="scheme-list__img" src="img/number3.png" alt="">
-                <div class="scheme-list__title">
-                    Договор
-                </div>
-                <div class="scheme-list__text">
-                    Обсуждаем все детали и специфику проекта
-                </div>
-            </li>
-            <li class="scheme-list__item">
-                <img class="scheme-list__img" src="img/number4.png" alt="">
-                <div class="scheme-list__title">
-                    Запуск проекта
-                </div>
-                <div class="scheme-list__text">
-                    Мы запускаем проект любой сложности в течении трёх недель
-                </div>
-            </li>
-            <li class="scheme-list__item">
-                <img class="scheme-list__img" src="img/number5.png" alt="">
-                <div class="scheme-list__title">
-                    Отчет
-                </div>
-                <div class="scheme-list__text">
-                    Закрываем период. Подписываем акты. Выставляем счета
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="section">
+            </section>
+            <section class="section">
                 <div class="wrapper">
                     <div class="benefit">
                         <div class="title-h2 title-h2--center">
@@ -548,7 +555,8 @@
                         <p><strong>Внедрение супервайзера на проект для повышение эффективности услуги </strong></p>
                         <ul class="list">
                             <li class="list__item">оперативный контроль выполнения текущих работ;</li>
-                            <li class="list__item">компания «Fillin» оказывает услуги аутсорсинга персонала в Киеве. Фирма  располагает собственной базой;</li>
+                            <li class="list__item">компания «Fillin» оказывает услуги аутсорсинга персонала в Киеве.
+                                Фирма располагает собственной базой;</li>
                             <li class="list__item">мгновенное реагирование на нестандартные ситуации.</li>
                         </ul>
                     </div>

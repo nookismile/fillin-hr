@@ -147,7 +147,7 @@
     transform: rotate(-90deg);
 }
 
-.hidden-overley {
+.hidden-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -158,7 +158,7 @@
     height:0;
     transition: opacity 1s;
 }
-.hidden-overley.show {
+.hidden-overlay.show {
     height: 100%;
     width: 100%;
     opacity:0.5;
